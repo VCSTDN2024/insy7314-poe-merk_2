@@ -17,14 +17,13 @@ To start bank-frontend, go to where the file is located, open cmd and type: npm 
 
 On App:
 
-Once the app opens you will be taken straight to the login page (even if you try make a payment it will tell you to login first)
-There are 2 accounts for this Login screen, both are static and their info is:
+Once the app opens you will be taken straight to the login page (even if you try make a payment it will tell you to login first).
 
+There are 2 accounts for this Login screen, both are static and their info is:
 Account Number: 123456 Password: pass123
 Account Number: 987654 Password: mypassword
 
 Once you login you will be taken to the payment page. (there are example SWIFT codes on the side to assist)
-
 
 
 Extras:
