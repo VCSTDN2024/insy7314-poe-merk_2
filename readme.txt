@@ -17,11 +17,17 @@ To start bank-frontend, go to where the file is located, open cmd and type: npm 
 
 On App:
 
-View Payments: https://localhost:3001/api/payments
+Once the app opens you will be taken straight to the login page (even if you try make a payment it will tell you to login first)
+There are 2 accounts for this Login screen, both are static and their info is:
 
-Bank of America SWIFT: BOFAUS3N
+Account Number: 123456 Password: pass123
+Account Number: 987654 Password: mypassword
+
+Once you login you will be taken to the payment page. (there are example SWIFT codes on the side to assist)
+
+
 
 Extras:
 
-Demo Vid URL: https://youtu.be/P4kEtBVooi8
-GitHub URL: https://github.com/VCSTDN2024/insy7314-part2-melkr.git
+Demo Vid URL: https://youtu.be/JoDoTYAnvoA
+GitHub URL: https://github.com/VCSTDN2024/insy7314-poe-merk_2.git

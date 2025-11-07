@@ -28,9 +28,7 @@ function App() {
     }
   };
 
-  // Style for the top buttons
-  const buttonStyle = 
-  {
+  const buttonStyle = {
     margin: "0 10px",
     padding: "10px 20px",
     backgroundColor: "#4CAF50",
@@ -41,15 +39,13 @@ function App() {
     fontWeight: "bold",
   };
 
-  const buttonContainerStyle = 
-  {
+  const buttonContainerStyle = {
     textAlign: "center",
     marginTop: "20px",
     marginBottom: "20px",
   };
 
-  return 
-  (
+  return (
     <div>
       <div style={buttonContainerStyle}>
         <button style={buttonStyle} onClick={() => setPage("login")}>

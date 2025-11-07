@@ -8,7 +8,7 @@ const fs = require("fs");
 const path = require("path");
 const helmet = require("helmet");
 const rateLimit = require("express-rate-limit");
-const xss = require("xss-clean"); 
+
 
 const app = express();
 app.use(bodyParser.json());
@@ -26,7 +26,7 @@ const limiter = rateLimit({
 app.use(limiter);
 
 // XSS protection
-app.use(xss());
+
 
 // Static users with real bcrypt hashes
 const users = [
